@@ -11,7 +11,7 @@ from flask import Flask, render_template, request, send_from_directory
 
 app = Flask(__name__)
 dir_path = os.path.dirname(os.path.realpath(__file__))
-UPLOAD_FOLDER = "uploads"
+UPLOAD_FOLDER = "images"
 STATIC_FOLDER = "static"
 
 # Load model
